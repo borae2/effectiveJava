@@ -13,6 +13,17 @@ public static Boolean valueOf(boolean b) {
 }
 ```
 
+Static factory method of LoggerFactory
+```JAVA
+ public static Logger getLogger(Class clazz) {
+  return getLogger(clazz.getName());
+ }
+ 
+ public static Logger getLogger(String name) {
+  ILoggerFactory iLoggerFactory = getILoggerFactory();
+  return iLoggerFactory.getLogger(name);
+ }
+```
 #### 1. 생성자와 달리 정적 팩터리 메서드에는 이름이 있다.
 
   - 정적 팩터리는 이름을 잘 짓기만 한다면 사용하기도 쉽고, 클라이언트 코드의 가동성도 높아진다.
