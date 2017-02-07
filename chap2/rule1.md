@@ -1,7 +1,8 @@
 ## 규칙1. 생성자 대신 정적 팩터리 메서드를 사용할 수 없는지 생각해 보라
 
 /**
-* Created By kkd927
+ Created By kkd927
+ 
 **/
 
 Boolean 클래스의 예
