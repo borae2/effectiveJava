@@ -1,4 +1,11 @@
 ## 규칙2. 생성자 인자가 많을 때는 Builder 패턴 적용을 고려하라.
+
+/**
+
+ Created By kkd927
+ 
+**/
+
 정적 팩터리나 생성자는 선택적 인자가 많은 상황에서 잘 적응하지 못한다.
 
 ### 1. 점층적 생성자 패턴(telescoping constructor pattern)
