@@ -57,7 +57,7 @@ public class Person {
 ###3. 쓸데없는 객체 생성 etc
 - Map 인터페이스의 keySet 메서드는 Map 객체의 Set뷰를 반환 (Map : 후면객체 / Set : 뷰)
 - Map의 keySet 호출시 매번 같은 Set을 반환
-<br/>
+<br>
 - Long -> long 이용
 - 객체 표현형 대신 기본 자료형을 사용하고, 생각지도 못한 자동 객체화 발생하지 않도록 유의.
 
